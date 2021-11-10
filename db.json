@@ -1,0 +1,210 @@
+
+{
+    "quiz_one" : [
+        {
+          "id":1,
+          "questionType": "complete_the_sentence",
+          "questionText": "HTML stands for _________________________",
+          "answerFieldId": "answer_to_question",
+          "correctAnswer": "hyper text markup language",
+          "feedback": "HTML stands for Hyper Text Markup Language"
+        },
+        {
+            "id":2,
+            "questionType" : "true_false",
+            "questionText" : "HTML comments start with <!-- and end with -->",
+            "options" : ["true", "false"],
+            "correctAnswer" : "true",
+            "feedback": "In HTML comments start with <!-- and end with -->"
+        },
+        {
+           "id":3,
+        "questionType": "multiple_choice",
+        "questionText": "How can you make a bulleted list with numbers?",
+        "options": [
+          "<dl>",
+          "<ol>",
+          "<list>",
+          "<ul>"],
+        "correctAnswer": "<ol>",
+        "feedback": "<ol> is used to make ordered lists with numbers"
+        },
+        {
+           "id":4,
+        "questionType" : "true_false",
+        "questionText": "<h2> is a larger size text than <h1>",
+        "options" : ["true", "false"],
+        "correctAnswer": "false",
+         "feedback": "Font size values follow the header hierarchy. h1 has to be bigger than h2, h2 has to be bigger than h3 etc."
+        },
+        {
+            "id":5,
+        "questionType": "text_input",
+        "questionText": "What is the correct HTML tag for inserting a line break?",
+        "correctAnswer": "<br>",
+        "answerFieldId": "answer_to_question",
+        "feedback": "You would use <br> to insert a line break"
+        },
+        {
+            "id":6,
+        "questionType": "complete_the_sentence",
+        "questionText": "In HTML, the tag _________ is used to insert a horizontal line.",
+        "answerFieldId": "answer_to_question",
+        "correctAnswer": "<hr>",
+        "feedback": "The <hr> tag is used to insert a horizontal line in HTML."
+        },
+        {
+           "id":7,
+          "questionType": "multiple_choice",
+          "questionText": "What file extension should HTML files have?",
+          "options": [
+            ".php",
+            ".html",
+            ".page",
+            ".ht"],
+          "correctAnswer": ".html",
+          "feedback": "HTML files have the file extension '.html'"
+        },
+        {
+            "id":8,
+        "questionType": "text_input",
+        "questionText": "In HTML, what will be the output of this code? <!--display some text--> <h1>Here is a heading</h1>",
+        "answerFieldId": "answer_to_question",
+        "correctAnswer": "Here is a heading",
+        "feedback": "The text surrounded by <!-- and --> is a comment so it will not display on the page. Only the text 'Here is a heading' will be displayed on the page."
+        },
+        {
+           "id":9,
+        "questionType": "multiple_choice",
+        "questionText": "In HTML, which tag is used to create paragraphs?",
+        "options": [
+          "<p>",
+          "<parag>",
+          "<b>",
+          "<paragraph>"],
+        "correctAnswer": "<p>",
+        "feedback": "The correct answer is <p>. The <b> tag is used to display bold text. There is no <parag> tag in HTML."
+        },
+        {
+          "id":10,
+        "questionType": "multiple_choice",
+        "questionText": "Assuming that orange.jpg cannot be found, what will be displayed when a page with this code is loaded in the browser?    <img src=\"orange.jpg\"  alt=\"Orange\" />",     
+        "options": [
+          "Nothing",
+          "The text 'Orange'",
+          "A warning message on the page",
+          "A warning message in an alert box"],
+        "correctAnswer": "The text 'Orange'",
+        "feedback": "The alt attribute specifies alternative text to be displayed if an image does not load."
+
+        },
+        {
+             "id":11,
+        "questionType" : "true_false",
+        "questionText": "The attribute 'onclick' is used to set inline styles for tags?",
+        "options" : ["true", "false"],
+        "correctAnswer": "false",
+        "feedback": "The attribute style is used to set inline styles for tags"
+        },
+        {
+             "id":12,
+        "questionType": "multiple_choice",
+        "questionText": "Which one of the following tags creates a table row?",
+        "options": [
+          "<tr>",
+          "<table>",
+          "<td>",
+          "<th>"],
+        "correctAnswer": "<tr>",
+        "feedback": "The tag <tr> creates a table row. The <td> tag creates a table cell. The <th> tag creates a table heading. The <table> tag creates the table itself"
+        },
+        {
+           "id":13,
+        "questionType": "yes_no",
+        "questionText": "When using the padding property; are you allowed to use negative values?",
+        "options": [
+          "Yes",
+          "No"],
+        "correctAnswer": "No",
+        "feedback": "You are not allowed to use negative values for the padding propertyin CSS."
+        },
+        {
+           "id":14,
+        "questionType": "multiple_choice",
+        "questionText": "Which one of these is in the correct HTML format for referring to an external style sheet?",
+        "options": [
+          "<stylesheet>mystyle.css</stylesheet>",
+          "<style src=\"mystyle.css\">",
+          "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\">",
+          "<styles>mystyle.css</stylesheet>"],
+        "correctAnswer": "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\">",
+        "feedback": "<link rel= \"stylesheet\" type= \"text/css\" href= \"mystyle.css\">  is in the correct format."
+        },
+        {
+            "id":15,
+        "questionType" : "true_false",
+        "questionText": "You can apply multiple CSS Classes to the same element.",
+        "options": ["True","False"],
+        "correctAnswer": "True",
+        "feedback": "You are allowed to apply more than one CSS class to the same element"
+        },
+        {
+             "id":16,
+        "questionType": "complete_the_sentence",
+        "questionText": "CSS stands for __________________.",
+        "answerFieldId": "answer_to_question",
+        "correctAnswer": "cascading style sheets",
+        "feedback": "CSS stands for Cascading Style Sheets"
+        },
+        {
+            "id":17,
+        "questionType": "multiple_choice",
+        "questionText": "How would you select an element with id 'demo'?",
+        "options": [
+          "#demo",
+          ".demo",
+          "demo",
+          "*demo"],
+        "correctAnswer": "#demo",
+        "feedback": "You would use # when reffering to an element id"
+        },
+        {
+            "id":18,
+        "questionType": "multiple_choice",
+        "questionText": "Which CSS property controls the text size?",
+        "options": [
+          "text-style",
+          "text-size",
+          "font-size",
+          "font-style"],
+        "correctAnswer": "font-size",
+        "feedback": "In CSS font-size is used to change the text size."
+        },
+        {
+            "id":19,
+        "questionType": "multiple_choice",
+        "questionText": "How do you insert a comment in a CSS file?",
+        "options": [
+          "'this is a comment'",
+          "// this is a comment //",
+          "// this is a comment",
+          "/* this is a comment */"],
+        "correctAnswer": "/* this is a comment */",
+        "feedback": "In CSS, /* and */ is used to write comments"
+        },
+        {
+              "id": 20,
+        "questionType": "multiple_choice",
+        "questionText": "In CSS how do you make a list that lists its items with squares?",
+        "options": [
+          "list-type: square;",
+          "list: square;",
+          "list-style-type: square;",
+          "None of the above"],
+        "correctAnswer": "list-style-type: square;",
+        "feedback": "list-style-type can be used to to make lists of different styles."
+        }
+    ]
+     
+}
+
